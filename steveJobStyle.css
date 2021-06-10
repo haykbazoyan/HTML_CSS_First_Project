@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;      
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+}
+.main-header {
+    display: flex;
+    flex-direction: column;
+}
+h1, h2 {
+    margin: 20px 0;
+}
+a {
+    text-decoration: none;
+    color:rgb(63, 112, 197);
+}
+/* HEADER MENU */
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgb(49, 50, 50);
+    padding: 5px 20%;
+}
+.top-menu-logo a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.top-menu-list {
+    justify-content: flex-end;
+}
+.top-menu-list-ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.top-menu-list-li a {
+    color:white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.top-menu-list-li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.mainCover {
+    width: 100%;
+    height: 360px;
+    background-color: rgb(24, 28, 46);
+}
+.main-heading {
+    padding: 15px 20%;
+    display: flex;
+    flex-direction: column;
+}
+.leadership {
+    color: rgb(245, 245, 247);
+}
+.steve-cover {
+    display: flex;
+    color: rgb(245, 245, 247);
+}
+.name, .emoji{
+    width: 50%;
+    
+}
+/* CONTENT */
+#left-section, #right-section {
+    width: 47%;
+}
+.name {
+    padding-top: 70px;
+}
+h1 {
+    font-size: 30px;
+}
+.content {
+    padding: 15px 20%;
+    display: flex;
+    justify-content: space-between;    
+}
+/* END OF CONTENT */
