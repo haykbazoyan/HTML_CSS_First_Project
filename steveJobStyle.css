@@ -61,23 +61,22 @@ a {
     display: flex;
     flex-direction: column;
 }
-.leadership {
+.leadership span{
     color: rgb(245, 245, 247);
 }
 .steve-cover {
     display: flex;
     color: rgb(245, 245, 247);
+    justify-content: space-between;
 }
-.name, .emoji{
-    width: 50%;
-    
-}
-/* CONTENT */
-#left-section, #right-section {
+.name, .emoji, #left-section, #right-section{
     width: 47%;
 }
 .name {
     padding-top: 70px;
+}
+.emoji {
+    padding-top: 35px;
 }
 h1 {
     font-size: 30px;
@@ -88,3 +87,65 @@ h1 {
     justify-content: space-between;    
 }
 /* END OF CONTENT */
+/* FOOTER */
+.footer-main {
+    padding: 20px 20%;
+    background-color: rgb(245, 245, 247);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.footer-nav-column {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-nav-column a, span{
+    color:rgb(54, 54, 54);
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.footer-nav a:hover {
+    text-decoration: underline;
+    /* background-color: transparent; */
+}
+.footer-center {
+    text-align: center;
+}
+.footer-right {
+    text-align: right;
+    color: rgb(54, 54, 54);
+}
+.footer-right h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.message-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.message-box textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.footer-button {
+    width: 300px;
+    height: 25px;
+
+}
+.footer-button:hover {
+    background-color: rgb(54, 54, 54);
+    color: rgb(245, 245, 247);
+}

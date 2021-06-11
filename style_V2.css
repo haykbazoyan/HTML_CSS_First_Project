@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif; 
+    /* noto sans font */
     font-size: 16px;
     color: rgb(54, 54, 54);
 }
@@ -15,13 +16,14 @@ h2 {
 a {
     text-decoration: none;
     color:rgb(63, 112, 197);
+    display: inline;
 }
 /* HEADER MENU */
 .top-menu {
     display: flex;
     justify-content: space-between;
     position: sticky;
-    background-color: rgb(49, 50, 50);
+    background-color: rgb(54, 54, 54);
     padding: 5px 20%;
 }
 .top-menu-logo a{
@@ -57,7 +59,7 @@ a {
     background-color:rgb(54, 54, 54);
 }
 
-/* ABOUT US */
+/* ABOUT STEVE JOBS */
 .about-us {
     padding: 14px 20%;
     display: flex;
@@ -177,9 +179,10 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
-.footer-nav-column a {
+.footer-nav-column a, span{
     color:rgb(54, 54, 54);
     padding-bottom: 10px;
+    font-size: 14px;
 }
 .footer-nav a:hover {
     text-decoration: underline;
@@ -205,7 +208,6 @@ a {
     width: 300px;
     height: 100px;
     margin-bottom: 5px;
-
 }
 .footer-button {
     width: 300px;
