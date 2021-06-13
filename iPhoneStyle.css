@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;      
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif; 
+    /* noto sans font */
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+}
+h2 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color:rgb(63, 112, 197);
+    display: inline;
+}
+/* HEADER MENU */
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgb(54, 54, 54);
+    padding: 5px 20%;
+}
+.top-menu-logo a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.top-menu-list {
+    justify-content: flex-end;
+}
+.top-menu-list-ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.top-menu-list-li a {
+    color:white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.top-menu-list-li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+header {
+    background-color: rgb(242, 242, 242);
+}
+.iphone-video, .ipone-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iphone-video, video{
+    padding: 5px 20%;   
+}
+.iphone-text, h1, .iphone-text h3{
+    margin: 10px;
+    width: 500px;
+    text-align: center;
+}
+.ipone-text a {
+    margin: 20px 0;
+}
+.ipone-text a:hover {
+    text-decoration: underline;
+} 
+
+/* product icons */
+.product-content {
+    padding: 10px 20%;
+    background-color: rgb(245, 245, 247);
+}
+#h2-Product {
+    padding-bottom: 20px;
+}
+.product-content-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color:rgb(54, 54, 54)
+}
+.icons:hover {
+    text-decoration: underline;
+}
+.icons img {
+    padding-bottom: 16px;
+}
+
+/* HEADS COMPANY */
+.catalog {
+    padding: 20px 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.catalog a {
+    margin: 0 40px 32px;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.catalog a:hover {
+    opacity: 0.8;
+}
+.models {
+    display: column;
+    
+}
+.models h3{
+    margin: 0;
+    display: inline;
+}
+
+/* FOOTER */
+.footer-main {
+    padding: 20px 20%;
+    background-color: rgb(245, 245, 247);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.footer-nav-column {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-nav-column a, span{
+    color:rgb(54, 54, 54);
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.footer-nav a:hover {
+    text-decoration: underline;
+    /* background-color: transparent; */
+}
+.footer-center {
+    text-align: center;
+}
+.footer-right {
+    text-align: right;
+    color: rgb(54, 54, 54);
+}
+.footer-right h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.message-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.message-box textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.footer-button {
+    width: 300px;
+    height: 25px;
+
+}
+.footer-button:hover {
+    background-color: rgb(54, 54, 54);
+    color: rgb(245, 245, 247);
+}
