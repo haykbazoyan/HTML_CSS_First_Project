@@ -24,6 +24,11 @@ a {
     color:rgb(63, 112, 197);
 }
 /* HEADER MENU */
+.main-header {
+    display:flex;
+    flex-direction: column;
+    
+}
 .top-menu {
     display: flex;
     justify-content: space-between;
@@ -43,6 +48,8 @@ a {
     display: flex;
     text-decoration: none;
     list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .top-menu-list-li a {
     color:white;
@@ -62,12 +69,18 @@ a {
 }
 .text-section {
     padding: 5px 20%;
+    display: flex;
+    justify-content:space-between;
 }
 .text-section p {
     text-align: justify;
-    text-indent:20px
+    text-indent:20px;
+    width: 45%;
+    line-height: 1.5;
+    
 }
 
+/* FOOTER */
 /* FOOTER */
 .footer-main {
     padding: 20px 20%;
@@ -98,35 +111,32 @@ a {
 }
 .footer-nav a:hover {
     text-decoration: underline;
-    /* background-color: transparent; */
 }
 .footer-center {
-    text-align: center;
+    width: 33%;
 }
-.footer-right {
-    text-align: right;
-    color: rgb(54, 54, 54);
-}
-.footer-right h3 {
-    margin: 0;
-    padding-bottom: 20px;
-}
-.message-box {
+.footer-shop-column {
+    width: 33%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-end;
+    align-self: flex-end;
+    margin-left: 50px;
 }
-.message-box textarea {
-    width: 300px;
-    height: 100px;
-    margin-bottom: 5px;
+.footer-shop-right h3 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: right;
 }
-.footer-button {
-    width: 300px;
-    height: 25px;
-
+.shop-lists {
+    display: flex;
+    justify-content: space-between;
 }
-.footer-button:hover {
-    background-color: rgb(54, 54, 54);
-    color: rgb(245, 245, 247);
+.footer-shop-column span a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+.footer-shop-column span a:hover {
+    text-decoration: underline;
 }

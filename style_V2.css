@@ -19,6 +19,11 @@ a {
     display: inline;
 }
 /* HEADER MENU */
+.main-header {
+    display:flex;
+    flex-direction: column;
+    
+}
 .top-menu {
     display: flex;
     justify-content: space-between;
@@ -33,12 +38,16 @@ a {
 }
 .top-menu-list {
     justify-content: flex-end;
+    overflow: visible;
 }
 .top-menu-list-ul {
     display: flex;
     text-decoration: none;
     list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .top-menu-list-li a {
     color:white;
     text-align: center;
@@ -50,13 +59,12 @@ a {
     background-color: white;
 }
 .header-slide {
-    position: inherit;
     background-image: url(./img/headerCover/slidePhoto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
     height: 100vh;
-    background-color:rgb(54, 54, 54);
+    background-position: center center;
+    -webkit-background-size: cover;
 }
 
 /* ABOUT STEVE JOBS */
@@ -72,9 +80,6 @@ a {
     text-align: justify;
     color: rgb(54, 54, 54);
     padding-left: 10px;
-}
-.about-text h2 {
-    margin: 0;
 }
 /* HEADS COMPANY */
 .heads-company {
@@ -189,35 +194,32 @@ a {
 }
 .footer-nav a:hover {
     text-decoration: underline;
-    /* background-color: transparent; */
 }
 .footer-center {
-    text-align: center;
+    width: 33%;
 }
-.footer-right {
-    text-align: right;
-    color: rgb(54, 54, 54);
-}
-.footer-right h3 {
-    margin: 0;
-    padding-bottom: 20px;
-}
-.message-box {
+.footer-shop-column {
+    width: 33%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-end;
+    align-self: flex-end;
+    margin-left: 50px;
 }
-.message-box textarea {
-    width: 300px;
-    height: 100px;
-    margin-bottom: 5px;
+.footer-shop-right h3 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: right;
 }
-.footer-button {
-    width: 300px;
-    height: 25px;
-
+.shop-lists {
+    display: flex;
+    justify-content: space-between;
 }
-.footer-button:hover {
-    background-color: rgb(54, 54, 54);
-    color: rgb(245, 245, 247);
+.footer-shop-column span a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+.footer-shop-column span a:hover {
+    text-decoration: underline;
 }
