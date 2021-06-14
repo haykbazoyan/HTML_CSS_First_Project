@@ -51,7 +51,7 @@ a {
 }
 .header-slide {
     position: inherit;
-    background-image: url(file:///Users/haykbazoyan/Desktop/HTMLProject/img/headerCover/slidePhoto.jpg);
+    background-image: url(./img/headerCover/slidePhoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -140,6 +140,9 @@ a {
     padding: 20px 0;
     display: flex;
     flex-direction: column;
+}
+.system-columns image {
+    background-image: url(./img/system_img/ios15.png);
 }
 .system-text {
     text-align: center;
