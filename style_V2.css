@@ -141,9 +141,9 @@ a {
     display: flex;
     flex-direction: column;
 }
-.system-columns image {
+/* .system-columns image {
     background-image: url(./img/system_img/ios15.png);
-}
+} */
 .system-text {
     text-align: center;
 }
