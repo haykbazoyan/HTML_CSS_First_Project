@@ -123,7 +123,8 @@ header {
     /* border: 1px solid black; */
 }
 .catalog a:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+    border: 1px solid rgb(211, 211, 211);
 }
 .models {
     display: column;
