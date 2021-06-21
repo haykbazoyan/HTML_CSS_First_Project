@@ -5,20 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 		<title>Think different</title>
-        <!-- <link rel="stylesheet" href="style.css"> -->
+<!-- CSS & JS -->
         <link rel="stylesheet" href="style_V2.css">
-        <script src="main.js"></script>
+        <script defer src="navMenuJS.js"></script>
 
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
+<!-- Facebook -->
         <meta property="og:site-name" content="Apple history">
         <meta property="og:title" content="All about Apple Company">
         <meta property="og:type" content="article">
-        <!-- Add url address & image for facebook sharing -->
         <meta property="og:url" content="https://haykbazoyan.github.io/HTML_CSS_First_Project/">
         <meta property="og:image" content="https://static.seattletimes.com/wp-content/uploads/2021/01/urn-publicid-ap-org-0aaf8188f449077a0c178b0d178ef439Apple-Results_50051-1200x630.jpg">
-        <!-- end -->
         <meta property="og:local" content="en_US">
         <meta property="og:description" content="About Apple">
 
@@ -26,32 +24,42 @@
     <body>
         <!-- HEADER -->
         <header class="main-header">
-            <section class="upper-nav">
-                <div class="top-menu">
-                    <div class="top-menu-logo">
-                        <a href="./index.html" class="top-menu-logo-a">
-                            <img src="img/logo/logo2.png" width="50" height="51" alt="Logo" class="logo-img">
-                            <p>Think Different</p>
-                        </a>
-                        
-                    </div>
-                    <nav class="top-menu-list">
-                        <ul class="top-menu-list-ul">
-                            <li class="top-menu-list-li"><a href="./index.html">Home</a></li>
-                            <li class="top-menu-list-li"><a href="/">Products</a></li>
-                            <li class="top-menu-list-li"><a href="/">Leaderships</a></li>
-                            <li class="top-menu-list-li"><a href="./applePark.html">Apple Park</a></li>
-                            <li class="top-menu-list-li"><a href="/">Presentations</a></li>
-                            <li class="top-menu-list-li"><a href="/">Contacts</a></li>
-                            
-                        </ul>
-                    </nav>
-                </div>
-            </section>
-            <section class="header-slide">
-                <!-- <img src="./img/headerCover/slidePhoto.jpg" alt=""> -->        
-            </section>
+            <div class="top-menu-logo">
+                <a href="./index.html" class="top-menu-logo-a">
+                    <img src="img/logo/main-logo копия.png" width="160" height="51" alt="Logo" class="logo-img">
+                </a>
+            </div>
+        
+            <nav class="main-nav">
+                <ul class="nav-list-ul">
+                    <li id="prod" class="nav-list-li"><a class="head-a" href="/">Products</a>
+                        <div class="prod-div">
+                            <ul class="drop-down">
+                                <li class="burger-list-li"><a class="prod-burg" href="">iPhone</a></li>
+                                <li class="burger-list-li"><a class="prod-burg" href="">iPad</a></li>
+                                <li class="burger-list-li"><a class="prod-burg" href="">Mac</a></li>
+                                <li class="burger-list-li"><a class="prod-burg" href="">Watch</a></li>
+                                <li class="burger-list-li"><a class="prod-burg" href="">AirPods</a></li>
+                                <li class="burger-list-li"><a class="prod-burg" href="">TV</a></li>
+                            </ul>
+                        </div>       
+                    </li>
+                    <li class="nav-list-li"><a class="head-a" href="/">Leaderships</a></li>
+                    <li class="nav-list-li"><a class="head-a" href="./applePark.html">Apple Park</a></li>
+                    <li class="nav-list-li"><a class="head-a" href="/">Presentations</a></li>
+                    <li class="nav-list-li"><a class="head-a" href="/">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
         </header>
+        <!-- HEADER SLIDE IMAGE -->
+        <section class="slide-img"></section>
         <!-- END -->
         <!-- ABOUT STEVE JOBS -->
         <section class="about-us">
@@ -153,7 +161,9 @@
         <!-- SYSTEM SECTION -->
         <section class="system-container">
             <div class="system-columns">
-                <!-- <div class="image"></div> -->
+                <div class="images">
+                    <img src="" alt="">
+                </div>
                 <img src="img/system_img/ios15.png" alt="iOS15"> 
                 <div class="system-text">
                     <h3>

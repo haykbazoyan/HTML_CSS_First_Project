@@ -76,6 +76,10 @@ a {
     padding: 5px 20%;
 }
 .name-mail {
+    width: 300px;
     display: flex;
     flex-direction: column;
+}
+.name-mail > .name {
+    margin: 20px;
 }
